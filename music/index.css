@@ -1,0 +1,11 @@
+.aplayer-list-index {
+    display: none  !important;
+}
+.aplayer {
+    width: 800px;
+    height: 400px;
+}
+.aplayer-list, .aplayer-list > ol{
+    max-height: 100% !important;
+    overflow: scroll !important;
+}

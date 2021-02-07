@@ -1,0 +1,86 @@
+.float-btn {
+    position: fixed;
+    right: 0;
+    top: 50%
+}
+.jq-alert {
+   
+	position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0,0,0,.3);
+    z-index: 99;
+	padding-left: 300px;
+}
+.modal {
+	background-color: #FFF;
+    width: 40%;
+    height: auto;
+    border-radius: 4px;
+    overflow: hidden;
+}
+.modal-title {
+	position: relative;
+    font-size: 24px;
+    height: auto;
+    padding: 25px 60px ;
+    text-align: left;
+    font-weight: 600;
+    margin-bottom: 0 !important;
+    color: rgba(0,0,0,.8);
+}
+.content {
+	padding: 10px 30px;
+    font-size: 20px;
+    color: rgba(0,0,0,.6);
+}
+.fd-btn {
+	position: relative;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+    -webkit-justify-content: center;
+    -webkit-align-items: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    margin-left: -150px;
+}
+.fd-btn > span {
+	width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: rgba(0,0,0,.8);
+    cursor: pointer;
+}
+.cancel {
+	position: relative;
+    color: rgba(0,0,0,.5) !important;
+}
+.confirm {
+	color: #2196F3 !important;
+}
+
+.layui-form {
+    font-size: 14px !important;
+}
